@@ -1,0 +1,50 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: rgb(63, 185, 183);
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+    color: rgba(229, 90, 43, 0.468);
+    width: 50%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+button[type="submit"] {
+    background-color: brown;
+    color: rgb(173, 216, 80);
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: darkbrown;
+}
